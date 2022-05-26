@@ -1,0 +1,269 @@
+Script started on 2022-05-26 11:14:46-07:00 [TERM="xterm" TTY="/dev/pts/117" COLUMNS="115" LINES="49"]
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# chmod u+x 0-iam_betty
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git add .
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git commit -m 'Task 0'
+[master bf277e1] Task 0
+ 2 files changed, 3 insertions(+)
+# sh: 1: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 2: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 3: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+ create mode 100755 0x01-shell_permissions/0-iam_betty
+ create mode 100644 0x01-shell_permissions/README.md
+# sh: 4: [master: not found
+# sh: 5: Syntax error: "(" unexpected
+# sh: 5: create: not found
+# sh: 6: create: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 492 bytes | 492.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/Kmoges/alx-system_engineering-devops.git
+   fba49bf..bf277e1  master -> master
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# touch 1-who_am_i
+root@30e99501758c:/alx-system_ensh: 7: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 8: Enumerating: not found
+# sh: 9: Syntax error: "(" unexpected
+# sh: 9: Delta: not found
+# sh: 10: Syntax error: "(" unexpected
+# sh: 10: Syntax error: "(" unexpected
+# sh: 10: Syntax error: "(" unexpected
+# sh: 10: To: not found
+# sh: 11: fba49bf..bf277e1: not found
+# sh: 12: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# gineering-devops/0x01-shell_permissions# echo '#!/bin/bash' > 1-who_am_i
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo 'id -un' >> 1-who_am_i
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# chmod u+x  1-who_am_i
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git add .
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git commit -m 'Task 1'
+[master 7aa5259] Task 1
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x01-shell_permissions/1-who_am_i
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+sh: 13: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 14: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 15: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 16: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 17: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 18: [master: not found
+# sh: 19: Syntax error: "(" unexpected
+# sh: 19: create: not found
+# sh: 20: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 21: Enumerating: not found
+# sh: 22: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 468 bytes | 468.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/Kmoges/alx-system_engineering-devops.git
+   bf277e1..7aa5259  master -> master
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# touch 3-new_owner
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo '#!/bin/bash' > 3-new_owner
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo 'id -Gn' >> 3-new_owner
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permsh: 22: Delta: not found
+# sh: 23: Syntax error: "(" unexpected
+# sh: 23: Syntax error: "(" unexpected
+# sh: 23: Syntax error: "(" unexpected
+# sh: 23: To: not found
+# sh: 24: bf277e1..7aa5259: not found
+# sh: 25: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 26: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 27: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# issions# chmod u+x 3-new_owner
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git add .
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git commit -m 'Task 2'
+[master b3d70e7] Task 2
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x01-shell_permissions/3-new_owner
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+sh: 28: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 29: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 30: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 31: [master: not found
+# sh: 32: Syntax error: "(" unexpected
+# sh: 32: create: not found
+# sh: 33: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 34: Enumerating: not found
+# sh: 35: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+sh: 35: Delta: not found
+# Compressing objects: 100% (3/3), done.
+sh: 36: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 501 bytes | 501.00 KiB/s, done.
+sh: 36: Syntax error: "(" unexpected
+# Total 4 (delta 0), reused 0 (delta 0)
+sh: 36: Syntax error: "(" unexpected
+# To https://github.com/Kmoges/alx-system_engineering-devops.git
+sh: 36: To: not found
+#    7aa5259..b3d70e7  master -> master
+sh: 37: 7aa5259..b3d70e7: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# touch 2-groups
+sh: 38: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo '#!/bin/bash' >^C
+sh: 39: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo '#!/bin/bash' > 2-groups
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo 'id -Gn' >> 2-groups
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# chmod u+x 2-groups
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git add .
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git commit -m 'Task 2'
+[master f4eaa70] Task 2
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x01-shell_permissions/2-groups
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git push
+Enumerating objects: 5, done.
+sh: 40: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 41: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 42: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 43: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 44: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 45: [master: not found
+# sh: 46: Syntax error: "(" unexpected
+# sh: 46: create: not found
+# sh: 47: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 48: Enumerating: not found
+# Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 368 bytes | 368.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100%sh: 49:  (1/1), completed with 1 local object.
+To https://githuSyntax error: "(" unexpectedb.com/Kmoges/alx-system_eng
+ineering-devops.git
+   b3d70e7..f4eaa70  master -> master
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permission# s# touch 3-new_owner
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo '#!/bin/bash' > 3-new_owner
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo 'chown betty hellosh: 49: Delta: not found
+# sh: 50: Syntax error: "(" unexpected
+# sh: 50: Syntax error: "(" unexpected
+# sh: 50: Syntax error: "(" unexpected
+# sh: 50: Syntax error: "(" unexpected
+# sh: 50: To: not found
+# sh: 51: b3d70e7..f4eaa70: not found
+# sh: 52: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 53: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# ' >> 3-new_owner
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# chmod u+x 3-new_owner
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git add .
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git commit -m 'Task 3'
+[master 87c5fab] Task 3
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 417 bytes | 417.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+sh: 54: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 55: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 56: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 57: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 58: [master: not found
+# sh: 59: Syntax error: "(" unexpected
+# sh: 59: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 60: Enumerating: not found
+# sh: 61: Syntax error: "(" unexpected
+# sh: 61: Delta: not found
+# sh: 62: Syntax error: "(" unexpected
+# sh: 62: Syntax error: "(" unexpected
+# sh: 62: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Kmoges/alx-system_engineering-devops.git
+   f4eaa70..87c5fab  master -> master
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# touch 4-empty
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo '#!/bin/bash' > 4-empty
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo 'touch hello' >> 4-empty
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# chmod u+x  4-empty
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git add .
+sh: 62: Syntax error: "(" unexpected
+# sh: 62: To: not found
+# sh: 63: f4eaa70..87c5fab: not found
+# sh: 64: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 65: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 66: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 67: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 68: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+root@30e99501758c:/alx-system_en# gineering-devops/0x01-shell_permissions# git commit -m 'Task 4'
+[master 10c06eb] Task 4
+sh: 69: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 70: [master: not found
+#  1 file changed, 2 insertions(+)
+sh: 71: Syntax error: "(" unexpected
+#  create mode 100755 0x01-shell_permissions/4-empty
+sh: 71: create: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git push
+sh: 72: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# Enumerating objects: 6, done.
+sh: 73: Enumerating: not found
+# Counting objects: 100% (6/6), done.
+sh: 74: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+sh: 74: Delta: not found
+# Compressing objects: 100% (3/3), done.
+sh: 75: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 426 bytes | 426.00 KiB/s, done.
+sh: 75: Syntax error: "(" unexpected
+# Total 4 (delta 1), reused 0 (delta 0)
+sh: 75: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 75: Syntax error: "(" unexpected
+# To https://github.com/Kmoges/alx-system_engineering-devops.git
+sh: 75: To: not found
+#    87c5fab..10c06eb  master -> master
+sh: 76: 87c5fab..10c06eb: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# touch 5-execute
+sh: 77: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#  echo '#!/bin/bash' > 4-empty
+sh: 78: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# echo '#!/bin/bash' >  5-execute
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permsh: 79: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# issions# echo 'chmod u+x hello' >> 5-execute
+sh: 80: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# chmod u+x 5-execute
+sh: 81: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git add .
+sh: 82: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git commit -m 'Task 5'
+sh: 83: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# [master 6bb8bec] Task 5
+sh: 84: [master: not found
+#  2 files changed, 2 insertions(+), 1 deletion(-)
+sh: 85: Syntax error: "(" unexpected
+#  create mode 100755 0x01-shell_permissions/5-execute
+sh: 85: create: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# git push
+Enumerating objects: 8, done.
+sh: 86: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# sh: 87: Enumerating: not found
+# Counting objects: 100% (8/8), done.
+sh: 88: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+sh: 88: Delta: not found
+# Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 475sh: 89: Syntax error: "(" unexpected
+#  bytes | 475.00 KiB/s, done.
+sh: 89: Syntax error: "(" unexpected
+# Total 5 (delta 1), reused 0 (delta 0)
+sh: 89: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 89: Syntax error: "(" unexpected
+# To https://github.com/Kmoges/alx-system_engineering-devops.git
+sh: 89: To: not found
+#    10c06eb..6bb8bec  master -> master
+sh: 90: 10c06eb..6bb8bec: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions# touch 6-multiple_permissions
+sh: 91: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#  echo '#!/bin/bash' > 6-multiple_permissions
+root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permsh: 92: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# issions# echo 'chmod ug+x,o+r hello' >> client_loop: send disconnect: Connection reset by peer
+sh: 93: root@30e99501758c:/alx-system_engineering-devops/0x01-shell_permissions#: not found
+# 
+# kirubel@DESKTOP-KMJDTJ9 MINGW64 ~
+sh: 95: kirubel@DESKTOP-KMJDTJ9: not found
+# $ ssh 30e99501758c@30e99501
